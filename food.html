@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>food </title>
+</head>
+<body class="container mx-auto">
+    <nav class="flex justify-between my-8">
+        <div class="logo">
+    <h1 class="text-2xl text-blue-600">Food village</h1>
+        </div>
+       <h1 class="text-3xl text-red-600">les't choose our favourite
+        food</h1>
+    <div class="menu">
+    <ul class="flex  ">
+    <li class="px-8"><a href="index.html">Home</a></li>
+      <li><a href="#">Food</a></li>
+    </ul>
+    </div>
+    </nav>
+    <div class="flex flex ">
+        <input id="search-inpur"  type="text" id="input-foods"  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="search hear to collect your fovoret foods"  />
+        <button id="search-button"  data-ripple-light="false" class="rounded-md bg-slate-800 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2 hover:border-transparentype=">
+          SEARCH
+          </button>
+    </div>
+    <div id="contry-det" class="border border-4 text-center"></div>
+  <div id="food" class="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+
+  </div>
+   <script src="./js/food.js"></script>
+    </body>
+</html>
